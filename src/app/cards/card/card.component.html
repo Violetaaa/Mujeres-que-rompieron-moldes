@@ -1,0 +1,31 @@
+<div class="card">
+    <div class="card__side card__side--front">
+        <div class="card__picture card__picture-" [ngStyle]="{'background-image': 'url(' + card.path + ')'}">
+        </div>
+
+    </div>
+
+    <div class="card__side card__side--back card__side--back-{{ card.backgroundColor }}">
+        <div class="card__cta">
+            <div class="card__text-box">
+                <p class="card__title">{{ card.name }}</p>
+                <p class="card__subtitle">{{ card.caption }}</p>
+            </div>
+            <a href="#popup-{{ card.id }}" class="btn btn--white">Saber más</a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="popup" id="popup-{{ card.id }}">
+    <div class="popup__content">
+        <div class="popup__right">
+            <a href="#" class="popup__close">&times;</a>
+            <!-- <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3> -->
+            <p class="popup__text">{{ card.description }}</p>
+            <a href="#" class="btn btn--blue">Aceptar</a>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color1: #5643fa;
+  --primary-color2: #2998ff;
+
+  --secondary-color1: #ffb900;
+  --secondary-color2: #ff7730;
+
+  --tertiary-color1: #7ed56f;
+  --tertiary-color2: #28b485;
+
+  --cuater-color1: #fd42bf;
+  --cuater-color2: #a704a7;
+
+  --light-grey: #f7f7f7;
+  --dark-grey: #777;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // pq 1 rem = 10px (y 10/16 = 62.5)
+}
+
+body {
+  // min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  // color: ;
+  padding: 3rem;
+
+  // background: linear-gradient(210deg, #bb62ae, #e16f9d, #f7878e, #ffa486, #ffc38b);
+  // background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  //background: linear-gradient(210deg, #bb3696, #df5184, #f3767a, #fd9d7b, #ffc38b);
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

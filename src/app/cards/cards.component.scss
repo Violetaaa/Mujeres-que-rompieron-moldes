@@ -1,0 +1,13 @@
+.gallery {
+  max-width: 140rem;
+  margin: 10rem auto;
+  background-color: rgba(#fff, 0.45);
+  border-radius: 10px;
+  padding: 9rem 9rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  //   min-height: 80vh;
+}
