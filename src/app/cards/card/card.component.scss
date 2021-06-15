@@ -142,15 +142,20 @@
     color: #fff;
     margin-bottom: 5rem;
     font-weight: 100;
-    font-size: 1.4rem;
   }
 
   &__title {
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    font-weight: 300;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
   }
 
-  // &__subtitle {
-  // }
+  &__subtitle {
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+  }
 }
 
 //////////////////button
@@ -190,31 +195,36 @@
   }
 
   &--white {
-    background-color: var(--button-color);
-    color: var(--button-text);
+    // background-color: var(--button-color);
+    // color: var(--button-text);
+
+    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--dark-grey);
     font-size: 1.4rem;
 
     &:hover {
-      background-color: var(--button-hover);
+      // background-color: var(--button-hover);
+      background-color: #fff;
     }
 
     &::after {
-      background-color: var(--button-color);
+      background-color: rgba(255, 255, 255, 0.9);
+      // background-color: var(--button-color);
     }
   }
 
-  // &--blue {
-  //   background-color: var(--primary-color1);
-  //   color: #fff;
+  &--blue {
+    background-color: var(--primary-color1);
+    color: #fff;
 
-  //   &:hover {
-  //     opacity: 0.9;
-  //   }
+    &:hover {
+      opacity: 0.9;
+    }
 
-  //   &::after {
-  //     background-color: var(--primary-color1);
-  //   }
-  // }
+    &::after {
+      background-color: var(--primary-color1);
+    }
+  }
 }
 
 /////////////////////////////

@@ -14,7 +14,6 @@ export class CardComponent implements OnInit {
 
   ngOnInit(): void {
     this.getRandomNumber()
-
   }
 
   // each random number generated corresponds to a SCSS class that assigns a certain color to the card

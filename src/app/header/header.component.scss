@@ -1,6 +1,4 @@
 .btn {
-  margin: 5rem;
-
   &,
   &:link,
   &:visited {
@@ -12,9 +10,12 @@
     transition: all 0.2s;
     position: relative;
     font-size: 1.6rem;
+    letter-spacing: 2px;
 
     border: none;
     cursor: pointer;
+
+    margin: 5rem;
   }
 
   &:hover {
@@ -34,30 +35,16 @@
     box-shadow: 0 0.5rem 1rem rgba(#000, 0.2);
   }
 
-  &--white {
-    background-color: var(--button-color);
-    color: var(--button-text);
-    font-size: 1.4rem;
+  &--blue {
+    background-color: var(--primary-color1);
+    color: #fff;
 
     &:hover {
-      background-color: var(--button-hover);
+      opacity: 0.9;
     }
 
     &::after {
-      background-color: var(--button-color);
+      background-color: var(--primary-color1);
     }
   }
-
-  //   &--blue {
-  //     background-color: var(--primary-color1);
-  //     color: #fff;
-
-  //     &:hover {
-  //       opacity: 0.9;
-  //     }
-
-  //     &::after {
-  //       background-color: var(--primary-color1);
-  //     }
-  //   }
 }
