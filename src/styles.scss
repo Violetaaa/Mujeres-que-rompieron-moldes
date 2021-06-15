@@ -51,9 +51,9 @@
 // }
 
 .light-theme {
-  $background-color-1: #feac5e;
-  $background-color-2: #c779d0;
-  $background-color-3: #4bc0c8;
+  // $background-color-1: #feac5e;
+  // $background-color-2: #c779d0;
+  // $background-color-3: #4bc0c8;
   --text-color: ;
   --button-color: rgba(255, 255, 255, 0.9);
   --buton-hover: #fff;
@@ -90,12 +90,12 @@ body {
   // background: linear-gradient(210deg, #bb62ae, #e16f9d, #f7878e, #ffa486, #ffc38b);
   // background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   //background: linear-gradient(210deg, #bb3696, #df5184, #f3767a, #fd9d7b, #ffc38b);
-  background: linear-gradient(
-    to right,
-    $background-color-1,
-    $background-color-2,
-    $background-color-3
-  );
+  // background: linear-gradient(
+  //   to right,
+  //   $background-color-1,
+  //   $background-color-2,
+  //   $background-color-3
+  // );
   background-size: cover;
   background-repeat: no-repeat;
 }
