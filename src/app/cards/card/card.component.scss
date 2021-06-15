@@ -190,31 +190,31 @@
   }
 
   &--white {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: var(--dark-grey);
+    background-color: var(--button-color);
+    color: var(--button-text);
     font-size: 1.4rem;
 
     &:hover {
-      background-color: #fff;
+      background-color: var(--button-hover);
     }
 
     &::after {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: var(--button-color);
     }
   }
 
-  &--blue {
-    background-color: var(--primary-color1);
-    color: #fff;
+  // &--blue {
+  //   background-color: var(--primary-color1);
+  //   color: #fff;
 
-    &:hover {
-      opacity: 0.9;
-    }
+  //   &:hover {
+  //     opacity: 0.9;
+  //   }
 
-    &::after {
-      background-color: var(--primary-color1);
-    }
-  }
+  //   &::after {
+  //     background-color: var(--primary-color1);
+  //   }
+  // }
 }
 
 /////////////////////////////

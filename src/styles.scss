@@ -13,6 +13,57 @@
 
   --light-grey: #f7f7f7;
   --dark-grey: #777;
+
+  // background-color: #fefefe;
+  // filter: invert(100%);
+}
+
+// :root {
+//   background-color: #fefefe;
+//   filter: invert(100%);
+// }
+
+// * {
+//   background-color: inherit;
+// }
+
+// img:not([src*=".svg"]),
+// video,
+// .card__picture,
+// .card__side--back {
+//   filter: invert(100%);
+// }
+
+// * {
+//   background-color: inherit;
+// }
+
+// html[theme="dark-mode"] {
+//   filter: invert(1) hue-rotate(180deg);
+// }
+// html[theme="dark-mode"] img,
+// picture,
+// video {
+//   filter: invert(1) hue-rotate(180deg);
+// }
+// .invert {
+//   filter: invert(1) hue-rotate(180deg);
+// }
+
+.light-theme {
+  $background-color-1: #feac5e;
+  $background-color-2: #c779d0;
+  $background-color-3: #4bc0c8;
+  --text-color: ;
+  --button-color: rgba(255, 255, 255, 0.9);
+  --buton-hover: #fff;
+  --button-text: #777;
+}
+
+.dark-theme {
+  --background-color-1: #000000;
+  --background-color-2: #00000071;
+  --background-color-3: #000000;
 }
 
 *,
@@ -34,12 +85,17 @@ body {
   font-weight: 400;
   line-height: 1.7;
   // color: ;
-  padding: 3rem;
+  // padding: 3rem;
 
   // background: linear-gradient(210deg, #bb62ae, #e16f9d, #f7878e, #ffa486, #ffc38b);
   // background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   //background: linear-gradient(210deg, #bb3696, #df5184, #f3767a, #fd9d7b, #ffc38b);
-  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background: linear-gradient(
+    to right,
+    $background-color-1,
+    $background-color-2,
+    $background-color-3
+  );
   background-size: cover;
   background-repeat: no-repeat;
 }
