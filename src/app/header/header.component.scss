@@ -13,12 +13,13 @@
 
 .theme-switch {
   margin: 3rem auto;
-  --background: #fff;
-  --text: #000;
+  background-color: #fff;
+  color: #000;
+
   color: var(--text);
   width: 70px;
   height: 30px;
-  background: var(--highlight);
+  background: $highlight;
   border-radius: 50px;
   position: relative;
   cursor: pointer;
@@ -33,26 +34,12 @@
     top: 3px;
     left: 4px;
     transition: 0.5s all ease;
-  }
-}
 
-.light-theme {
-  --background: #fff;
-  --text: #000;
-  background: var(--background);
-
-  .theme-switch {
-    background: var(--text);
-
-    .switch {
+    &__clicked {
       transform: translateX(37px);
     }
   }
-  a {
-    color: var(--text);
-  }
 }
-//fin light-theme
 
 .navigation {
   display: flex;

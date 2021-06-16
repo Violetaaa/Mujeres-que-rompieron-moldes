@@ -2,6 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Card } from '../models/card.model';
 
+// Next line solves xml2js error, don't remove!!
 // @ts-ignore
 import xml2js from 'xml2js';
 
@@ -57,6 +58,7 @@ export class CardsComponent implements OnInit {
           var item = obj.elemento[k];
 
           cardList.push(new Card(item.id[0], item.nombre[0], item.foto[0], item.pie[0], item.detalle[0]))
+
           // arr.push({
           //   id: item.id[0]
           //   nombre: item.nombre[0],
