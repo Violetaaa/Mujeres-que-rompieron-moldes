@@ -40,7 +40,7 @@
     width: 100%;
     height: 100%;
 
-    transition: all 0.8s ease;
+    transition: transform 0.8s ease;
 
     position: absolute; // front y back van uno encima del otro
     top: 0;
@@ -106,8 +106,7 @@
   &:hover &__side--back {
     transform: rotateY(0); // vuelve a cero, posición inicial
   }
-
-  /////////////end flip functionality/////////////
+  ///////////// end flip functionality /////////////
 
   &__picture {
     background-size: cover;
@@ -115,30 +114,9 @@
     width: 100%;
     object-fit: cover;
     // height: 23rem;
-
-    //    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    //    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-
-    // &--1 {
-    //   //background-image: Fondo1, Fondo2;
-    //   background-image: url(img1.jpg);
-    // }
-
-    // &--1 {
-    //   background-image: url(img1.jpg);
-    // }
-
-    // &--1 {
-    //   background-image: url(img1.jpg);
-    // }
-
-    // &--1 {
-    //   background-image: url(img1.jpg);
-    // }
   }
 
-  // style del front
-
+  // front
   &__cta {
     position: absolute;
     top: 50%;
@@ -169,8 +147,7 @@
   }
 }
 
-//////////////////button
-
+////////////////// card button
 .btn {
   &,
   &:link,
@@ -180,7 +157,7 @@
     padding: 1.3rem 3rem;
     display: inline-block;
     border-radius: 20rem;
-    transition: all 0.2s;
+    transition: transform 0.2s;
     position: relative;
     font-size: 1.5rem;
 
@@ -206,21 +183,16 @@
   }
 
   &--white {
-    // background-color: var(--button-color);
-    // color: var(--button-text);
-
-    background-color: var(--button-white-hover);
-    color: var(--dark-grey);
+    background-color: $button-white-hover;
+    color: $dark-grey;
     font-size: 1.4rem;
 
     &:hover {
-      // background-color: var(--button-hover);
-      background-color: var(--button-white);
+      background-color: $button-white;
     }
 
     &::after {
-      background-color: var(--button-white-hover);
-      // background-color: var(--button-color);
+      background-color: $button-white-hover;
     }
   }
 
@@ -238,7 +210,7 @@
   }
 }
 
-/////////////////////////////
+///////////////////////////// modal
 .popup {
   height: 100vh;
   width: 100%;
@@ -249,7 +221,7 @@
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s;
+  transition: transform 0.3s;
 
   @supports (-webkit-backdrop-filter: blur(10px)) or
     (backdrop-filter: blur(10px)) {
@@ -310,7 +282,7 @@
     hyphens: auto;
   }
 
-  // open states
+  // open modal
   &:target {
     opacity: 1;
     visibility: visible;

@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from "rxjs";
 import { StorageService } from "./local-storage.service";
 
-
 export enum ThemeMode {
   DARK, LIGHT
 }
@@ -58,5 +57,4 @@ export class toggleThemeService {
     this.darkThemeSelected = true;
     this.theme$.next(ThemeMode.DARK);
   }
-
 }

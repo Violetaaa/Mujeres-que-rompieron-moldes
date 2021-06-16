@@ -1,13 +1,9 @@
 .gallery {
   max-width: 300rem;
   margin: 5rem auto;
-  // background-color: var(--background-gallery);
   border-radius: 0.5rem;
-  // padding: 9rem 15rem;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
-  //   min-height: 80vh;
 }
