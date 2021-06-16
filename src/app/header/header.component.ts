@@ -10,10 +10,17 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.onToggle
   }
 
-  onToggleMode() {
-
+  onToggle() {
+    let body = document.getElementsByTagName('body')[0];
+    // body.classList.remove("className");  
+    // body.classList.add("theme-switch");
+    body.classList.add("backg");
   }
+
+
+
 
 }

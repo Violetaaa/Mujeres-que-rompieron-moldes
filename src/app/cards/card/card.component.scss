@@ -166,12 +166,12 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 1.3rem 3rem;
     display: inline-block;
-    border-radius: 10rem;
+    border-radius: 20rem;
     transition: all 0.2s;
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
     border: none;
     cursor: pointer;
@@ -198,17 +198,17 @@
     // background-color: var(--button-color);
     // color: var(--button-text);
 
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: var(--button-white-hover);
     color: var(--dark-grey);
     font-size: 1.4rem;
 
     &:hover {
       // background-color: var(--button-hover);
-      background-color: #fff;
+      background-color: var(--button-white);
     }
 
     &::after {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: var(--button-white-hover);
       // background-color: var(--button-color);
     }
   }
