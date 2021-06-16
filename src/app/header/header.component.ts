@@ -8,7 +8,8 @@ import { toggleThemeService } from '../services/toggle-theme.service';
 })
 export class HeaderComponent implements OnInit {
 
-  flag: boolean = false;
+  translateValue: number = 0;
+
   constructor(private toggleThemeService: toggleThemeService) {
   }
 
@@ -17,14 +18,13 @@ export class HeaderComponent implements OnInit {
   }
 
   toggleTheme() {
-
-
     this.toggleThemeService.toggle();
 
-    this.flag = !this.flag;
-    // document.getElementsByClassName('theme-switch')[0].classList.toggle('switch__clicked');
-    // document.getElementsByClassName('switch')[0].classList.toggle('switch__clicked');
-
-
+    // translateY switch
+    if (this.translateValue == 0) {
+      this.translateValue = 37
+    } else {
+      this.translateValue = 0;
+    }
   }
 }

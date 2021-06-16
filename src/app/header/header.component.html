@@ -10,7 +10,8 @@
         </ul>
     </div>
 
-    <!-- <div class="theme-switch" (click)="toggleTheme()" [ngClass]="flag? 'switch__clicked' : ''">
-        <div class=" switch"></div>
-    </div> -->
+    <div class="theme-switch" (click)="toggleTheme()">
+        <div class="switch" [ngStyle]="{'transform': 'translateX(' + translateValue + 'px)'}"></div>
+    </div>
+
 </div>
