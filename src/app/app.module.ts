@@ -7,8 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardsComponent } from './cards/cards.component';
 import { CardComponent } from './cards/card/card.component';
-
+import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+
 import { StorageService } from './services/local-storage.service';
 import { toggleThemeService } from './services/toggle-theme.service';
 
@@ -18,24 +19,14 @@ export function themeFactory(themeService: toggleThemeService) {
   return () => themeService.setThemeOnStart();
 }
 
-// <IfModule mod_rewrite.c>
-// RewriteEngine On
-// RewriteBase /
-// RewriteRule ^index\.html$ - [L]
-// RewriteCond %{REQUEST_FILENAME} !-f
-// RewriteCond %{REQUEST_FILENAME} !-d
-// RewriteRule . /index.html [L]
-// </IfModule>
-
-
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
     CardComponent,
-
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

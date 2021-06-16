@@ -4,7 +4,7 @@
 		<id>1</id>
 		<nombre>Ada Lovelace</nombre>
 		<foto>./assets/img1.jpg</foto>
-		<pie>La primera programadora (1)</pie>
+		<pie>La primera programadora</pie>
 		<detalle>(1) Augusta Ada King, más conocida como Ada Lovelace no fue una mujer convencional de la época victoriana. Escritora y matemática, creó lo que hoy se conoce como el primer algoritmo pensado para ser procesado por una máquina. De ahí que se la considere la primera programadora de computadoras.</detalle>
 	</elemento>
 	<elemento>
