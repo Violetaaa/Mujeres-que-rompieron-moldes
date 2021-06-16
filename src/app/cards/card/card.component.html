@@ -1,20 +1,21 @@
-<div class="card">
-    <div class="card__side card__side--front">
-        <div class="card__picture card__picture-" [ngStyle]="{'background-image': 'url(' + card.path + ')'}">
-        </div>
-
-    </div>
-
-    <div class="card__side card__side--back card__side--back-{{ card.backgroundColor }}">
-        <div class="card__cta">
-            <div class="card__text-box">
-                <p class="card__title">{{ card.name }}</p>
-                <p class="card__subtitle">{{ card.caption }}</p>
+<div class="container-card">
+    <div class="card">
+        <div class="card__side card__side--front">
+            <div class="card__picture card__picture-" [ngStyle]="{'background-image': 'url(' + card.path + ')'}">
             </div>
-            <a href="#popup-{{ card.id }}" class="btn btn--white">Saber más</a>
+
+        </div>
+
+        <div class="card__side card__side--back card__side--back-{{ card.backgroundColor }}">
+            <div class="card__cta">
+                <div class="card__text-box">
+                    <p class="card__title">{{ card.name }}</p>
+                    <p class="card__subtitle">{{ card.caption }}</p>
+                </div>
+                <a href="#popup-{{ card.id }}" class="btn btn--white">Saber más</a>
+            </div>
         </div>
     </div>
-
 </div>
 
 

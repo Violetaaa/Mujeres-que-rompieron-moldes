@@ -1,8 +1,19 @@
+@import "../../../styles/animations";
+@import "../../../styles/base";
+@import "../../../styles/colors";
+@import "../../../styles/theme";
+
 // uso de: ~ , por ej:
 // @import '~sass/variables';
-
-/* You can add global styles to this file, and also import other style files */
+.container-card {
+  padding: 8rem;
+  background-color: var(--background-gallery);
+  margin: 1rem;
+  border-radius: 15px;
+}
 .card {
+  background-color: var(--background-gallery);
+
   //la perspectiva del giro se define en el padre del elemento en el que ocurre la transformación
   // border-radius: 50%;
   perspective: 150rem;
@@ -57,32 +68,32 @@
         // TODO añadir quizá un par de colores más para el back
         background-image: linear-gradient(
           to right bottom,
-          var(--secondary-color1),
-          var(--secondary-color2)
+          $secondary-color1,
+          $secondary-color2
         );
       }
 
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          var(--tertiary-color1),
-          var(--tertiary-color2)
+          $tertiary-color1,
+          $tertiary-color2
         );
       }
 
       &-3 {
         background-image: linear-gradient(
           to right bottom,
-          var(--cuater-color1),
-          var(--cuater-color2)
+          $cuater-color1,
+          $cuater-color2
         );
       }
 
       &-4 {
         background-image: linear-gradient(
           to right bottom,
-          var(--primary-color2),
-          var(--primary-color1)
+          $primary-color2,
+          $primary-color1
         );
       }
     }
@@ -214,7 +225,7 @@
   }
 
   &--blue {
-    background-color: var(--primary-color1);
+    background-color: $primary-color1;
     color: #fff;
 
     &:hover {
@@ -222,7 +233,7 @@
     }
 
     &::after {
-      background-color: var(--primary-color1);
+      background-color: $primary-color1;
     }
   }
 }

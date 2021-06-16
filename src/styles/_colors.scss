@@ -1,0 +1,54 @@
+$background: #121212;
+// $background: #1a1e23;
+$background-l: #fff;
+
+$background-gallery: rgb(255, 255, 255, 0.02);
+$background-gallery-l: #eee;
+
+$button-white: #fff;
+$button-white-l: #000;
+$button-white-hover: rgba(255, 255, 255, 0.9);
+$button-white-hover-l: #000, 0.9;
+
+$text: #fff;
+$text-l: #000;
+
+$highlight: #ff1ead;
+
+$primary-color1: #5643fa;
+$primary-color2: #2998ff;
+
+$secondary-color1: #fa1b1b;
+$secondary-color2: #ff0037;
+
+$tertiary-color1: #4e027a;
+$tertiary-color2: #7700ff;
+
+$cuater-color1: #fd42bf;
+$cuater-color2: #a704a7;
+
+$light-grey: #f7f7f7;
+$dark-grey: #777;
+
+$colors: (
+  --background: (
+    $background,
+    $background-l,
+  ),
+  --background-gallery: (
+    $background-gallery,
+    $background-gallery-l,
+  ),
+  --button-white: (
+    $button-white,
+    $button-white-l,
+  ),
+  --button-white-hover: (
+    $button-white-hover,
+    $button-white-hover-l,
+  ),
+  --text: (
+    $text,
+    $text-l,
+  ),
+);
