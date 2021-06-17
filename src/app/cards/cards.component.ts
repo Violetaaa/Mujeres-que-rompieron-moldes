@@ -23,7 +23,8 @@ export class CardsComponent implements OnInit {
   }
 
   loadXML() {
-    this._http.get('/assets/datos_galeria.xml',
+    this._http.get('../assets/datos_galeria.xml',
+      //this._http.get('https://violetaaa.github.io/CMV-publico/datos_galeria.xml',
       {
         headers: new HttpHeaders()
           .set('Content-Type', 'text/xml')
