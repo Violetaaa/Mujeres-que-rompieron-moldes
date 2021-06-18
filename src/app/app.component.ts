@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Mujeres que rompieron moldes';
+  title = 'cmv-final';
 
   constructor() {
   }
