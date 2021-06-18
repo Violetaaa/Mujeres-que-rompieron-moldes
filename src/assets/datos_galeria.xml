@@ -5,21 +5,21 @@
 		<nombre>Ada Lovelace</nombre>
 		<foto>./assets/img1.jpg</foto>
 		<pie>La primera programadora</pie>
-		<detalle>Augusta Ada King, más conocida como Ada Lovelace no fue una mujer convencional de la época victoriana. Escritora y matemática, creó lo que hoy se conoce como el primer algoritmo pensado para ser procesado por una máquina. De ahí que se la considere la primera programadora de computadoras.</detalle>
+		<detalle>Augusta Ada King, más conocida como Ada Lovelace no fue una mujer convencional de la época victoriana. Escritora y matemática, creó lo que hoy se conoce como el primer algoritmo pensado para ser procesado por una máquina. De ahí que se la considere la primera programadora de computadoras. Es la mujer que inventó la programación. Y lo hizo en 1843, cuando al ordenador todavía le quedaba mucho para ser siquiera un esbozo.</detalle>
 	</elemento>
 	<elemento>
 		<id>2</id>
 		<nombre>Artemisa Gentileschi</nombre>
 		<foto>./assets/img2.jpg</foto>
 		<pie>Pintora barroca</pie>
-		<detalle>Pintora barroca italiana, representante del caravaggismo. Primera mujer en conseguir entrar en la Academia de Bellas Artes de Florencia.</detalle>
+		<detalle>Pintora barroca italiana, representante del caravaggismo. Triunfó como artista en un mundo exclusivamente masculino: el de las principales cortes europeas, y fue la primera mujer en conseguir entrar en la Academia de Bellas Artes de Florencia. Su padre quiso que tomara los hábitos, pero al final aceptó que se convirtiera en pintora, un oficio de hombres en esa época.</detalle>
 	</elemento>
 	<elemento>
 		<id>3</id>
 		<nombre>Clara Peters</nombre>
 		<foto>./assets/img3.jpg</foto>
 		<pie>Pintora barroca</pie>
-		<detalle>Pintora flamenca considerada una de las iniciadoras del bodegón en los Países Bajos. Fue una de las pocas mujeres artistas activa en Europa durante la primera mitad de siglo XVII. En 2016 se convirtió en la primera mujer pintora protagonista de una exposición en el Museo del Prado.</detalle>
+		<detalle>Pintora flamenca considerada una de las iniciadoras del bodegón en los Países Bajos. Fue una de las pocas mujeres artistas activa en Europa durante la primera mitad de siglo XVII. Durante muchos años esta pintora de Amberes fue la única mujer artista colgada en las paredes del Museo del Prado. En 2016 se convirtió en la primera mujer pintora protagonista de una exposición en este museo.</detalle>
 	</elemento>
 	<elemento>
 		<id>4</id>
@@ -33,7 +33,7 @@
 		<nombre>Emily Brontë</nombre>
 		<foto>./assets/img5.jpg</foto>
 		<pie>Escritora</pie>
-		<detalle>Las Hermanas Brontë, Charlotte, Emily y Anne, publicaron gran parte de sus obras de novela y poesía bajo pseudónimos masculinos.</detalle>
+		<detalle>Las Hermanas Brontë, aisladas en los páramos ingleses de Yorkshire, huyeron de un destino marcado por la férrea época victoriana a través de la literatura, firmando y publicando gran parte de sus obras de novela y poesía bajo pseudónimos masculinos. </detalle>
 	</elemento>
 	<elemento>
 		<id>6</id>
