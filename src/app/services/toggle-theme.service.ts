@@ -9,13 +9,13 @@ export enum ThemeMode {
 @Injectable()
 export class toggleThemeService {
 
-  public theme$ = new BehaviorSubject<ThemeMode>(ThemeMode.LIGHT);
+  public theme$ = new BehaviorSubject<ThemeMode>(ThemeMode.DARK);
   private readonly THEME_KEY = 'THEME';
   private readonly DARK_THEME_VALUE = 'DARK';
   private readonly LIGHT_THEME_VALUE = 'LIGHT';
   private readonly DARK_THEME_CLASS_NAME = 'theme-dark';
 
-  private darkThemeSelected = false;
+  private darkThemeSelected = true;
 
   constructor(private storage: StorageService) {
 

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orla>
+	<elemento>
+		<id>1</id>
+		<nombre>Ada Lovelace</nombre>
+		<foto>./assets/img1.jpg</foto>
+		<pie>La primera programadora</pie>
+		<detalle>Augusta Ada King, más conocida como Ada Lovelace no fue una mujer convencional de la época victoriana. Escritora y matemática, creó lo que hoy se conoce como el primer algoritmo pensado para ser procesado por una máquina. De ahí que se la considere la primera programadora de computadoras. Es la mujer que inventó la programación. Y lo hizo en 1843, cuando al ordenador todavía le quedaba mucho para ser siquiera un esbozo.</detalle>
+	</elemento>
+	<elemento>
+		<id>2</id>
+		<nombre>Artemisa Gentileschi</nombre>
+		<foto>./assets/img2.jpg</foto>
+		<pie>Pintora barroca</pie>
+		<detalle>Pintora barroca italiana, representante del caravaggismo. Triunfó como artista en un mundo exclusivamente masculino: el de las principales cortes europeas, y fue la primera mujer en conseguir entrar en la Academia de Bellas Artes de Florencia. Su padre quiso que tomara los hábitos, pero al final aceptó que se convirtiera en pintora, un oficio de hombres en esa época.</detalle>
+	</elemento>
+	<elemento>
+		<id>3</id>
+		<nombre>Clara Peters</nombre>
+		<foto>./assets/img3.jpg</foto>
+		<pie>Pintora barroca</pie>
+		<detalle>Pintora flamenca considerada una de las iniciadoras del bodegón en los Países Bajos. Fue una de las pocas mujeres artistas activa en Europa durante la primera mitad de siglo XVII. Durante muchos años esta pintora de Amberes fue la única mujer artista colgada en las paredes del Museo del Prado. En 2016 se convirtió en la primera mujer pintora protagonista de una exposición en este museo.</detalle>
+	</elemento>
+	<elemento>
+		<id>4</id>
+		<nombre>Susan Kare</nombre>
+		<foto>./assets/img4.jpg</foto>
+		<pie>Diseñadora gráfica y pionera del pixel art</pie>
+		<detalle>Posiblemente hoy no hablarías con emojis con tu smartphone y Steve Jobs no hubiese triunfado tanto sin el trabajo de Kare, a la que debemos agradecer que la interfaz de los Mac Os revolucionase el mercado. Ella creó los iconos de Apple y dio al MAC OS un léxico visual que era universalmente intuitivo para que se reconociese de forma instantánea, como las señales de tráfico. Su archivo ha sido adquirido por el MoMA.</detalle>
+	</elemento>
+	<elemento>
+		<id>5</id>
+		<nombre>Emily Brontë</nombre>
+		<foto>./assets/img5.jpg</foto>
+		<pie>Escritora</pie>
+		<detalle>Las Hermanas Brontë, aisladas en los páramos ingleses de Yorkshire, huyeron de un destino marcado por la férrea época victoriana a través de la literatura, firmando y publicando gran parte de sus obras de novela y poesía bajo pseudónimos masculinos. </detalle>
+	</elemento>
+	<elemento>
+		<id>6</id>
+		<nombre>Clara Schumann</nombre>
+		<foto>./assets/img6.jpg</foto>
+		<pie>Pianista</pie>
+		<detalle>Niña prodigio, fue una de las grandes concertistas europeas del siglo xix y su carrera fue clave en la difusión de las composiciones de su marido, Robert Schumann. Está considerada como una de las pianistas más distinguidas de la era romántica.</detalle>
+	</elemento>
+	<elemento>
+		<id>7</id>
+		<nombre>Lise Meitner</nombre>
+		<foto>./assets/img7.jpg</foto>
+		<pie>Física</pie>
+		<detalle>Física y madre de la energía nuclear. Albert Einstein la definió como la 'Marie Curie alemana' y el Nobel decidió enterrar su nombre. La segunda mujer en graduarse en la Universidad de Viena descubrió la fisión nuclear, pero fue su compañero, Otto Hahn, quien sí ganaría el Nobel de de Química en 1944. Meitner siempre se mostró "horrorizada" de que sus estudios abriesen la puerta a la creación de la bomba atómica, que ella tildó de "destructora de los mundos".</detalle>
+	</elemento>
+	<elemento>
+		<id>8</id>
+		<nombre>Margaret Ann Bulkley</nombre>
+		<foto>./assets/img8.jpg</foto>
+		<pie>Una de las primeras doctoras</pie>
+		<detalle>Margaret entendió que nunca podría ser cirujana siendo mujer, así que se hizo pasar por hombre (James Barry) para estudiar medicina y pasar a ser cirujano del Ejército. Sirvió en la batalla de Waterloo, practicó una de las primera cesáreas con éxito de la historia y mejoró la atención médica de los soldados. </detalle>
+	</elemento>
+	<elemento>
+		<id>9</id>
+		<nombre>Anna Atkins</nombre>
+		<foto>./assets/img9.jpg</foto>
+		<pie>La primera fotógrafa</pie>
+		<detalle>Artista y botánica británica, autora del primer ilustrado con fotografías, cuya figura permaneció oscurecida por la historia. Pionera en el uso de la la cianotipia como técnica fotográfica, tuvo que pasar más de un siglo para que su obra obtuviese el merecido reconocimiento.</detalle>
+	</elemento>
+	<elemento>
+		<id>10</id>
+		<nombre>Lizzie Siddal</nombre>
+		<foto>./assets/img10.jpg</foto>
+		<pie>Poeta y musa</pie>
+		<detalle>Poeta, escritora y musa de los prerrafaelitas. Pasaría a la historia por ser la protagonista del Ophelia de John Everett Millais (1852), pero esta pelirroja, musa de la hermandad de prerrafaelitas, desarrolló una interesante faceta como poeta. Con uno de ellos, Rosetti, acabaría casándose y viviendo un suplicio de matrimonio que la llevó a la depresión y al (presunto) suicidio por sobredosis de laúdano.</detalle>
+	</elemento>
+	<elemento>
+		<id>11</id>
+		<nombre>Emmy Noether </nombre>
+		<foto>./assets/img11.jpg</foto>
+		<pie>La madre de las matemáticas</pie>
+		<detalle>La discriminación que padeció por ser mujer y judía en la Alemania no impidió que esta hija de matemáticos perpetrase un legado magistral en álgebra abstracta y la física fundamental. El teorema que lleva su apellido sirvió para entender mejor la física (por qué hay leyes de conversación o magnitud que no cambian a lo largo de la evolución temporal) y Einstein defendió que ella era la "genio creativa de las matemáticas".</detalle>
+	</elemento>
+	<elemento>
+		<id>12</id>
+		<nombre>Lee Krasner</nombre>
+		<foto>./assets/img12.jpg</foto>
+		<pie>Pintora</pie>
+		<detalle>Pintora y maestra del expresionismo abstracto. Es una de las pocas mujeres con una retrospectiva en el MoMA. La mayor parte de su obra la firmó como L. K., motivada por el influjo de su mentor, Hans Hoffman, que dijo que su obra "era tan buena que nunca imaginarías que lo ha pintado una mujer". En 1945 se casó con Jackson Pollock y pasó a ser conocida popularmente como Miss Jackson Pollock, un sobrenombre que marcó su carrera y que rechazaba profundamente.</detalle>
+	</elemento>
+	<elemento>
+		<id>13</id>
+		<nombre>Rosalind Franklin</nombre>
+		<foto>./assets/img13.jpg</foto>
+		<pie>Química y co-descubridora del AND</pie>
+		<detalle>Química, también descubrió el ADN pero el Nobel no se acordó de ella. Franklin es uno de los ejemplos más flagrantes del efecto Matilda (o la invisibilización de las mujeres en el ámbito científico). Tras graduarse en Cambridge y pasar unos años en París estudiando los rayos X y su habilidad para detectar la estructura molecular de los cristales, volvió a Inglaterra para trabajar con Maurice Wilkins en determinar la estructura del ADN. Sin embargo, fue él el que sí recibiría el reconocimiento de la academia sueca.</detalle>
+	</elemento>
+	<elemento>
+		<id>14</id>
+		<nombre>Freya Stark</nombre>
+		<foto>./assets/img14.jpg</foto>
+		<pie>Exploradora y escritora</pie>
+		<detalle>Nadie ha exprimido con tanto brío los 100 años que vivió esta intrépida mujer. Escribió 24 libros sobre viajes (hablaba 9 idiomas) y con 81 años subió a lomos de una mula el Himalaya. Aventurera y apasionada por Oriente Medio, investigó una secta en Bagdad, viajó sola a Persia para cartografiarla y durante la Segunda Guerra Mundial fue una espía que organizó una red de inteligencia británica para que los árabes no apoyasen a Hitler.</detalle>
+	</elemento>
+	<elemento>
+		<id>15</id>
+		<nombre>Jeanne Bucher</nombre>
+		<foto>./assets/img15.jpg</foto>s
+		<pie>Galerista</pie>
+		<detalle>Galerista y salvaguarda del arte durante el nazismo. Tal y como explica I Love Herstory: "'Para esta intrépida y generosa galerista, el arte era, más que un negocio, una causa. Dio su apoyo a los artistas tachados de “degenerados” por el régimen nazi. De Chirico, Domela, Ernst, Kandinsky, Klee, Lipchitz, Miró, De Staël, o Marcoussis fueron algunos de ellos. Expuso sus creaciones cuando estaban prohibidas, las salvaguardó de las requisas e incluso acogió a quienes eran perseguidos".</detalle>
+	</elemento>
+</orla>
