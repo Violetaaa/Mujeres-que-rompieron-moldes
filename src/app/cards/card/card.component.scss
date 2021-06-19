@@ -19,7 +19,7 @@
   // border-radius: 50%;
   perspective: 150rem;
   -moz-perspective: 150rem;
-  position: relative; // ACORDARSE! pq hijo es absolute
+  position: relative; // hijo es absolute
 
   width: 250px; //pq redonda
   height: 375px;
@@ -284,8 +284,32 @@
   }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 550px) {
   .popup__content {
     width: 80%;
+  }
+
+  .container-card {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-card {
+    padding: 2rem;
+  }
+  .card {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-card {
+    padding: 2rem;
+  }
+  .card {
+    width: 200px;
+    height: 300px;
   }
 }
