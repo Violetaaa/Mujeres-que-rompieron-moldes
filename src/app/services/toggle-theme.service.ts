@@ -21,18 +21,6 @@ export class toggleThemeService {
 
   }
 
-  // public setThemeOnStart() {
-  //   if (this.isDarkThemeSelected()) {
-  //     this.setDarkTheme();
-  //   } else {
-  //     this.setLightTheme();
-  //   }
-  //   setTimeout(() => {
-  //     document.body.classList.add('animate-colors-transition');
-  //   }, 500);
-  // }
-
-
   public setThemeOnStart() {
     if (this.isLightThemeSelected()) {
       this.setLightTheme();
@@ -44,8 +32,6 @@ export class toggleThemeService {
     }, 500);
   }
 
-
-
   public toggle() {
     if (this.lightThemeSelected) {
       this.setDarkTheme();
@@ -53,11 +39,6 @@ export class toggleThemeService {
       this.setLightTheme();
     }
   }
-
-  // private isDarkThemeSelected(): boolean {
-  //   this.darkThemeSelected = this.storage.get(this.THEME_KEY) === this.DARK_THEME_VALUE;
-  //   return this.darkThemeSelected;
-  // }
 
   private isLightThemeSelected(): boolean {
     this.lightThemeSelected = this.storage.get(this.THEME_KEY) === this.LIGHT_THEME_VALUE;
