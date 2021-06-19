@@ -8,7 +8,7 @@
   font-size: 1.4rem;
   color: var(--text);
   padding: 5rem 0;
-  width: 100%;
+
   a {
     text-decoration: none;
     color: var(--text);
@@ -31,10 +31,11 @@
     }
   }
 
-  //   &__text {
-  //      display: flex;
-  //      justify-content: space-around;
-  //   }
+  &__text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
 
   &__author,
   &__emoji {
