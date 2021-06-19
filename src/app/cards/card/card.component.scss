@@ -301,15 +301,17 @@
   .card {
     width: 200px;
     height: 300px;
-  }
-}
 
-@media (max-width: 450px) {
-  .container-card {
-    padding: 2rem;
-  }
-  .card {
-    width: 200px;
-    height: 300px;
+    &__text-box {
+      margin-bottom: 2rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__subtitle {
+      font-size: 1.4rem;
+    }
   }
 }
