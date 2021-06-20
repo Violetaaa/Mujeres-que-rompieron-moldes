@@ -15,10 +15,8 @@ export class toggleThemeService {
   private readonly LIGHT_THEME_VALUE = 'LIGHT';
   private readonly DARK_THEME_CLASS_NAME = 'theme-dark';
 
-  // private darkThemeSelected = false;
   private lightThemeSelected = false;
   constructor(private storage: StorageService) {
-
   }
 
   public setThemeOnStart() {
