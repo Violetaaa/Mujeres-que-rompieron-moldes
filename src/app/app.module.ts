@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 
 import { StorageService } from './services/local-storage.service';
 import { toggleThemeService } from './services/toggle-theme.service';
+import { ReadXmlService } from './services/read-xml.service';
 
 
 
@@ -35,6 +36,7 @@ export function themeFactory(themeService: toggleThemeService) {
     HttpClientModule
   ],
   providers: [
+    ReadXmlService,
     toggleThemeService,
     StorageService,
     { provide: APP_INITIALIZER, useFactory: themeFactory, deps: [toggleThemeService], multi: true },
