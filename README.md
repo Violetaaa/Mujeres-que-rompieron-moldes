@@ -3,12 +3,12 @@
 
 ## Mujeres que rompieron moldes
 
-___Mujeres que rompieron moldes___ es el ejercicio final del curso de CMV Consultores realizado en CENEC
+Ejercicio final del curso de CMV Consultores realizado en CENEC
 <br/>
-<br/>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7df3c458-31a4-450f-981c-aafc4fffe567/deploy-status)](https://app.netlify.com/sites/mujeresquerompenmoldes/deploys)   
-### [Enlace](https://mujeresquerompenmoldes.netlify.app/) 
+### [Enlace al proyecto](https://mujeresquerompenmoldes.netlify.app/) 
+<br>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7df3c458-31a4-450f-981c-aafc4fffe567/deploy-status)](https://app.netlify.com/sites/mujeresquerompenmoldes/deploys)  
 
 
 
